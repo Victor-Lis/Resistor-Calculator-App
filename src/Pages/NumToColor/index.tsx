@@ -1,7 +1,10 @@
-import { View } from 'react-native';
+import { Container } from './styles'
+import Resistor from './Components/Resistor';
 
 export default function NumToColor() {
  return (
-   <View/>
+   <Container>
+    <Resistor/>
+   </Container>
   );
 }
