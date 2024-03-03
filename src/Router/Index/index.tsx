@@ -24,6 +24,7 @@ export function Router() {
           options={{
             headerShown: false,
             tabBarStyle: {
+              display: "none",
               backgroundColor: "#202020",
               height: 50,
               alignItems: "center",
@@ -40,7 +41,7 @@ export function Router() {
             ),
           }}
         />
-        <Bottom.Screen
+        {/* <Bottom.Screen
           name="ColorToNum"
           component={ColorToNum}
           options={{
@@ -59,7 +60,7 @@ export function Router() {
               <Text style={{ color: focused ? "#00ff00" : "#7d7d7d" }}>{children}</Text>
             ),
           }}
-        />
+        /> */}
       </Bottom.Navigator>
     </>
   );
