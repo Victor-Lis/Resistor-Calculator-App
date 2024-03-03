@@ -1,13 +1,25 @@
-import { Container, Bars, Body, BodyColor } from './styles'
+import { Container, Bars, Body, BodyColor, BodyCircle, BodyMain } from './styles'
 
-export default function Resistor() {
+type Props = {
+  color1?: string;
+  color2?: string;
+  color3?: string;
+}
+
+export default function Resistor({color1, color2, color3}: Props) {
  return (
    <Container>
     <Bars/>
     <Body>
-      <BodyColor color='#00ff00'/>
-      <BodyColor color='#0000ff'/>
-      <BodyColor color='#ff0000'/>
+      <BodyCircle>
+        <BodyColor color={color1}/>
+      </BodyCircle>
+      <BodyMain>
+        <BodyColor color={color2}/>
+        <BodyColor color={color3}/>
+        <BodyColor/>
+      </BodyMain>
+      <BodyCircle/>
     </Body>
     <Bars/>
    </Container>

@@ -16,7 +16,7 @@ export const Bars = styled.View`
 `;
 
 export const Body = styled.View`
-  background-color: #fadcaf;
+  /* background-color: #fadcaf; */
   flex: 3;
   height: 100%;
   border-radius: 30px;
@@ -24,6 +24,25 @@ export const Body = styled.View`
   justify-content: space-around;
   align-items: center;
 `;
+
+export const BodyCircle = styled.View`
+  height: 100%;
+  flex: 1;
+  background-color: #fadcaf;
+  border-radius: 10px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+`
+
+export const BodyMain = styled.View`
+  height: 70%;
+  flex: 1.75;
+  background-color: #fadcaf;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+`
 
 interface BodyColorProps {
   color?: string;
