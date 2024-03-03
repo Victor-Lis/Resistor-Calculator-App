@@ -5,3 +5,14 @@ export const Container = styled.SafeAreaView`
     flex: 1;
     padding: 50px 0;
 `
+
+export const Form = styled.View`
+    padding: 50px 0;
+`
+
+export const Result = styled.Text`
+    color: #fff;
+    font-size: 50px;
+    margin: 0 auto;
+    margin-top: 100px;
+`
