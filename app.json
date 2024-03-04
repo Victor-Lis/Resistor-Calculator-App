@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "resistor-calculator-app",
+    "name": "Resistor Calculator",
     "slug": "resistor-calculator-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.dev_victor.resistorcalculatorapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b1cb5dd3-cb01-4781-a017-e51caeb15a7d"
+      }
     }
   }
 }
