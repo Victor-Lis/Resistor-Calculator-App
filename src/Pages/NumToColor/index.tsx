@@ -3,7 +3,7 @@ import { cores } from "../../utils/cores";
 import { calcularOhmns } from "../../utils/calcularOhms";
 import { CorType } from "../../@types/cor";
 import { Container, Form, Result } from "./styles";
-import Resistor from "./Components/Resistor";
+import Resistor from "../../components/Resistor";
 import Select from "./Components/Select";
 
 export default function NumToColor() {
