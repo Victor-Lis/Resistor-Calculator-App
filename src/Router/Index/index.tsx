@@ -24,7 +24,6 @@ export function Router() {
           options={{
             headerShown: false,
             tabBarStyle: {
-              display: "none",
               backgroundColor: "#202020",
               height: 50,
               alignItems: "center",
