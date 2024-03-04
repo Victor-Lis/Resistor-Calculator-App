@@ -19,28 +19,6 @@ export function Router() {
       <StatusBar hidden={true} />
       <Bottom.Navigator>
         <Bottom.Screen
-          name="NumToColor"
-          component={NumToColor}
-          options={{
-            headerShown: false,
-            tabBarStyle: {
-              backgroundColor: "#202020",
-              height: 50,
-              alignItems: "center",
-            },
-            tabBarIcon: ({ focused, size }) => (
-              <FontAwesome
-                name="calculator"
-                color={focused ? "#00ff00" : "#7d7d7d"}
-                size={size-5}
-              />
-            ),
-            tabBarLabel: ({focused, color, position, children}) => (
-              <Text style={{ color: focused ? "#00ff00" : "#7d7d7d" }}>{children}</Text>
-            ),
-          }}
-        />
-        <Bottom.Screen
           name="ColorToNum"
           component={ColorToNum}
           options={{
@@ -55,8 +33,34 @@ export function Router() {
                 size={size}
               />
             ),
-            tabBarLabel: ({focused, color, position, children}) => (
-              <Text style={{ color: focused ? "#00ff00" : "#7d7d7d" }}>{children}</Text>
+            tabBarLabel: ({ focused, color, position, children }) => (
+              <Text style={{ color: focused ? "#00ff00" : "#7d7d7d" }}>
+                {children}
+              </Text>
+            ),
+          }}
+        />
+        <Bottom.Screen
+          name="NumToColor"
+          component={NumToColor}
+          options={{
+            headerShown: false,
+            tabBarStyle: {
+              backgroundColor: "#202020",
+              height: 50,
+              alignItems: "center",
+            },
+            tabBarIcon: ({ focused, size }) => (
+              <FontAwesome
+                name="calculator"
+                color={focused ? "#00ff00" : "#7d7d7d"}
+                size={size - 5}
+              />
+            ),
+            tabBarLabel: ({ focused, color, position, children }) => (
+              <Text style={{ color: focused ? "#00ff00" : "#7d7d7d" }}>
+                {children}
+              </Text>
             ),
           }}
         />
