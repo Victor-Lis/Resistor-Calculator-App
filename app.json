@@ -8,8 +8,8 @@
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff00"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -20,7 +20,8 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "resizeMode": "cover",
+        "backgroundColor": "#ffffff00"
       },
       "package": "com.dev_victor.resistorcalculatorapp"
     },
