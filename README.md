@@ -6,5 +6,17 @@ Esse App é capaz de:
 - Através do número de ohms dar as cores do resistor respectivo.
 Por conta disso, refleti mais uma vez como essa área de desenvolvimento de sistemas é de aprendizado constante e não necessáriamente sobre códigos apenas, mas também pelos conteúdos dos projetos, como nesse caso que estudei um pouco sobre eletricidade e voltagens, inclusive fiz um [post](https://github.com/Victor-Lis/Entendendo-Voltagens-Arduino) sobre aqui no GitHub.
 
+## ScreenShots 
+
+<div align="center">
+  <img alt="ColorToNum" width="150px" height="300px" src="./assets/project-images/colorToNum.jpg">
+  <img alt="ColorToNumExample" width="150px" height="300px" src="./assets/project-images/colorToNum2.jpg">
+</div>
+
+<div align="center">
+    <img alt="NumToColor" width="150px" height="300px" src="./assets/project-images/numToColor.jpg">
+    <img alt="NumToColorExample" width="150px" height="300px" src="./assets/project-images/numToColor2.jpg">
+</div>
+
 ## Autores
 - [@Victor-Lis](https://github.com/Victor-Lis)
