@@ -8,8 +8,10 @@ Por conta disso, refleti mais uma vez como essa área de desenvolvimento de sist
 
 ## ScreenShots 
 
-![ColorToNum](./assets/project-images/colorToNum.jpg)
-![NumToColor](./assets/project-images/numToColor.jpg)
+<div align="center">
+  <img alt="ColorToNum" width="100px" height="300px" src="./assets/project-images/colorToNum.jpg">
+  <img alt="NumToColor" width="100px" height="300px" src="./assets/project-images/numToColor.jpg">
+</div>
 
 ## Autores
 - [@Victor-Lis](https://github.com/Victor-Lis)
