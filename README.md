@@ -18,6 +18,10 @@ Por conta disso, refleti mais uma vez como essa área de desenvolvimento de sist
     <img alt="NumToColorExample" width="150px" height="300px" src="./assets/project-images/numToColor2.jpg">
 </div>
 
+<div align="center">
+    <img alt="NumToColor" width="150px" height="300px" src="./assets/project-images/apk-view.jpg">
+</div>
+
 ## APKS 
 
 ### v1.27 - Versão Inicial
