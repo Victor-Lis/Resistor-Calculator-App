@@ -9,13 +9,13 @@ Por conta disso, refleti mais uma vez como essa área de desenvolvimento de sist
 ## ScreenShots 
 
 <div align="center">
-  <img alt="ColorToNum" width="150px" height="300px" src="./assets/project-images/colorToNum.jpg">
-  <img alt="ColorToNumExample" width="150px" height="300px" src="./assets/project-images/colorToNum2.jpg">
+  <img alt="ColorToNum" width="170px" height="300px" src="./assets/project-images/colorToNum.jpg">
+  <img alt="ColorToNumExample" width="170px" height="300px" src="./assets/project-images/colorToNum2.jpg">
 </div>
 
 <div align="center">
-    <img alt="NumToColor" width="150px" height="300px" src="./assets/project-images/numToColor.jpg">
-    <img alt="NumToColorExample" width="150px" height="300px" src="./assets/project-images/numToColor2.jpg">
+    <img alt="NumToColor" width="170px" height="300px" src="./assets/project-images/numToColor.jpg">
+    <img alt="NumToColorExample" width="170px" height="300px" src="./assets/project-images/numToColor2.jpg">
 </div>
 
 <div align="center">
