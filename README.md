@@ -18,5 +18,13 @@ Por conta disso, refleti mais uma vez como essa área de desenvolvimento de sist
     <img alt="NumToColorExample" width="150px" height="300px" src="./assets/project-images/numToColor2.jpg">
 </div>
 
+## APKS 
+
+### v1.27 - Versão Inicial
+[Baixe Aqui](https://github.com/Victor-Lis/Resistor-Calculator-App/blob/master/apks/Resistor%20Calculator%20v1.27.apk)
+
+### v1.31 - Atualização dos icons
+[Baixe Aqui](https://github.com/Victor-Lis/Resistor-Calculator-App/blob/master/apks/Resistor%20Calculator%20v1.31.apk)
+
 ## Autores
 - [@Victor-Lis](https://github.com/Victor-Lis)
