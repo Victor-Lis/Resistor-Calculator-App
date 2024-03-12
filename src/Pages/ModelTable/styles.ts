@@ -9,6 +9,6 @@ export const Container = styled.SafeAreaView`
 `
 
 export const Image = styled.Image`
-    width: 90%;
-    height: 150px;
+    width: 95%;
+    height: 71%;
 `
