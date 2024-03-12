@@ -19,7 +19,8 @@ Por conta disso, refleti mais uma vez como essa área de desenvolvimento de sist
 </div>
 
 <div align="center">
-    <img alt="NumToColor" width="170px" height="300px" src="./assets/project-images/apk-view.jpg">
+    <img alt="ModelTable" width="170px" height="300px" src="./assets/project-images/modelTable.jpg">
+    <img alt="APK-View" width="170px" height="300px" src="./assets/project-images/apk-view.jpg">
 </div>
 
 ## APKS 
