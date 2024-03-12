@@ -9,18 +9,18 @@ Por conta disso, refleti mais uma vez como essa área de desenvolvimento de sist
 ## ScreenShots 
 
 <div align="center">
-  <img alt="ColorToNum" width="170px" height="330px" src="./assets/project-images/colorToNum.jpg">
-  <img alt="ColorToNumExample" width="170px" height="330px" src="./assets/project-images/colorToNum2.jpg">
+  <img alt="ColorToNum" width="170px" height="320px" src="./assets/project-images/colorToNum.jpg">
+  <img alt="ColorToNumExample" width="170px" height="320px" src="./assets/project-images/colorToNum2.jpg">
 </div>
 
 <div align="center">
-    <img alt="NumToColor" width="170px" height="330px" src="./assets/project-images/numToColor.jpg">
-    <img alt="NumToColorExample" width="170px" height="330px" src="./assets/project-images/numToColor2.jpg">
+    <img alt="NumToColor" width="170px" height="320px" src="./assets/project-images/numToColor.jpg">
+    <img alt="NumToColorExample" width="170px" height="320px" src="./assets/project-images/numToColor2.jpg">
 </div>
 
 <div align="center">
-    <img alt="ModelTable" width="170px" height="330px" src="./assets/project-images/modelTable.jpg">
-    <img alt="APK-View" width="170px" height="330px" src="./assets/project-images/apk-view.jpg">
+    <img alt="ModelTable" width="170px" height="320px" src="./assets/project-images/modelTable.jpg">
+    <img alt="APK-View" width="170px" height="320px" src="./assets/project-images/apk-view.jpg">
 </div>
 
 ## APKS 
