@@ -23,6 +23,7 @@ export function Router() {
           component={ColorToNum}
           options={{
             headerShown: false,
+            tabBarShowLabel: false,
             tabBarStyle: {
               backgroundColor: "#202020",
             },
@@ -30,7 +31,7 @@ export function Router() {
               <MaterialIcons
                 name="palette"
                 color={focused ? "#00ff00" : "#7d7d7d"}
-                size={size}
+                size={size*1.5}
               />
             ),
             tabBarLabel: ({ focused, color, position, children }) => (
@@ -45,6 +46,7 @@ export function Router() {
           component={NumToColor}
           options={{
             headerShown: false,
+            tabBarShowLabel: false,
             tabBarStyle: {
               backgroundColor: "#202020",
               height: 50,
@@ -54,7 +56,7 @@ export function Router() {
               <FontAwesome
                 name="calculator"
                 color={focused ? "#00ff00" : "#7d7d7d"}
-                size={size - 5}
+                size={size*1.1}
               />
             ),
             tabBarLabel: ({ focused, color, position, children }) => (
