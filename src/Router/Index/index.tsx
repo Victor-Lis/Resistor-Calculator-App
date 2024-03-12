@@ -8,6 +8,7 @@ import MaterialIcons from "react-native-vector-icons/MaterialIcons";
 
 import NumToColor from "../../Pages/NumToColor";
 import ColorToNum from "../../Pages/ColorToNum";
+import ModelTable from "../../Pages/ModelTable";
 
 import { Text } from "react-native";
 
@@ -57,6 +58,31 @@ export function Router() {
                 name="calculator"
                 color={focused ? "#00ff00" : "#7d7d7d"}
                 size={size*1.1}
+              />
+            ),
+            tabBarLabel: ({ focused, color, position, children }) => (
+              <Text style={{ color: focused ? "#00ff00" : "#7d7d7d" }}>
+                {children}
+              </Text>
+            ),
+          }}
+        />
+        <Bottom.Screen
+          name="ModelTable"
+          component={ModelTable}
+          options={{
+            headerShown: false,
+            tabBarShowLabel: false,
+            tabBarStyle: {
+              backgroundColor: "#202020",
+              height: 50,
+              alignItems: "center",
+            },
+            tabBarIcon: ({ focused, size }) => (
+              <FontAwesome
+                name="table"
+                color={focused ? "#00ff00" : "#7d7d7d"}
+                size={size*1.35}
               />
             ),
             tabBarLabel: ({ focused, color, position, children }) => (
