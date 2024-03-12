@@ -1,8 +1,10 @@
 import React from "react";
-import { Container } from './styles' 
+import { Container, Image } from './styles';
 
 export default function ModelTable() {
   return (
-    <Container></Container>
+    <Container>
+      <Image source={require("../../../assets/table.png")} />
+    </Container>
   );
 }
