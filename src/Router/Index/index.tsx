@@ -57,7 +57,7 @@ export function Router() {
               <FontAwesome
                 name="calculator"
                 color={focused ? "#00ff00" : "#7d7d7d"}
-                size={size*1.1}
+                size={size*1.25}
               />
             ),
             tabBarLabel: ({ focused, color, position, children }) => (
