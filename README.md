@@ -31,5 +31,9 @@ Por conta disso, refleti mais uma vez como essa área de desenvolvimento de sist
 ### v1.31 - Atualização dos icons
 [Baixe Aqui](https://github.com/Victor-Lis/Resistor-Calculator-App/blob/master/apks/Resistor%20Calculator%20v1.31.apk)
 
+### v1.41 - Adicionando rota com a tabela de resistores
+[Baixe Aqui](https://github.com/Victor-Lis/Resistor-Calculator-App/blob/master/apks/Resistor%20Calculator%20v1.41.apk)
+
+
 ## Autores
 - [@Victor-Lis](https://github.com/Victor-Lis)
