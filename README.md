@@ -63,11 +63,3 @@ npm start
 ## 👨‍💻 Autor
 
 [@Victor-Lis](https://github.com/Victor-Lis)
-
-<br>
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
-
-Código semelhante encontrado com 1 tipo de licença
