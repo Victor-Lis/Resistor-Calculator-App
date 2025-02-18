@@ -1,39 +1,59 @@
-# Resistor Calculator App  
+# Calculadora de Resistores
 
-Criei esse App a partir da intenção de facilitar meus trabalhos com S.E., tanto para projetos, tanto para a matéria de S.E. no curso técnico que eu faço.
-Esse App é capaz de:
-- Calcular a potência do resistor atráves de suas cores;
-- Através do número de ohms dar as cores do resistor respectivo.
-Por conta disso, refleti mais uma vez como essa área de desenvolvimento de sistemas é de aprendizado constante e não necessáriamente sobre códigos apenas, mas também pelos conteúdos dos projetos, como nesse caso que estudei um pouco sobre eletricidade e voltagens, inclusive fiz um [post](https://github.com/Victor-Lis/Entendendo-Voltagens-Arduino) sobre aqui no GitHub.
+Aplicativo móvel para cálculos com resistores elétricos. Converte facilmente entre cores das faixas e valores em ohms.
 
-## ScreenShots 
+Criado com foco de ajudar meus colegas de turma na matéria de IoT.
+
+## 📱 Screenshots
 
 <div align="center">
-  <img alt="ColorToNum" width="170px" height="350px" src="./assets/project-images/colorToNum.jpg">
-  <img alt="ColorToNumExample" width="170px" height="350px" src="./assets/project-images/colorToNum2.jpg">
+  <img alt="ColorToNum" width="170px" height="320px" src="./assets/project-images/colorToNum.jpg">
+  <img alt="NumToColor" width="170px" height="320px" src="./assets/project-images/numToColor.jpg">
+  <img alt="ModelTable" width="170px" height="320px" src="./assets/project-images/modelTable.jpg">
 </div>
 
-<div align="center">
-    <img alt="NumToColor" width="170px" height="350px" src="./assets/project-images/numToColor.jpg">
-    <img alt="NumToColorExample" width="170px" height="350px" src="./assets/project-images/numToColor2.jpg">
-</div>
+## ⚡ Funcionalidades
 
-<div align="center">
-    <img alt="ModelTable" width="170px" height="350px" src="./assets/project-images/modelTable.jpg">
-    <img alt="APK-View" width="170px" height="350px" src="./assets/project-images/apk-view.jpg">
-</div>
+- Converter cores das faixas para valor em ohms
+- Converter valor em ohms para cores das faixas  
+- Visualizar tabela de referência cores/valores
+- Navegação intuitiva por abas
+- Suporte para resistores de 1Ω até 1GΩ
 
-## APKS 
+## 🛠️ Tecnologias
 
-### v1.27 - Versão Inicial
-[Baixe Aqui](https://github.com/Victor-Lis/Resistor-Calculator-App/blob/master/apks/Resistor%20Calculator%20v1.27.apk)
+- [React Native](https://reactnative.dev/) + [Expo](https://expo.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Styled Components](https://styled-components.com/)
+- [React Navigation](https://reactnavigation.org/)
+- [React Native Vector Icons](https://github.com/oblador/react-native-vector-icons)
 
-### v1.31 - Atualização dos icons
-[Baixe Aqui](https://github.com/Victor-Lis/Resistor-Calculator-App/blob/master/apks/Resistor%20Calculator%20v1.31.apk)
+## 📥 Instalação
 
-### v1.41 - Adicionando rota com a tabela de resistores
-[Baixe Aqui](https://github.com/Victor-Lis/Resistor-Calculator-App/blob/master/apks/Resistor%20Calculator%20v1.41.apk)
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/resistor-calculator-app.git
 
+# Instale as dependências
+cd resistor-calculator-app
+npm install
 
-## Autores
-- [@Victor-Lis](https://github.com/Victor-Lis)
+# Execute o projeto
+npm start
+```
+
+## 📱 Versões Disponíveis (APK)
+
+- [v1.41](https://github.com/Victor-Lis/Resistor-Calculator-App/blob/master/apks/Resistor%20Calculator%20v1.27.apk) - Adição da tabela de referência 
+- [v1.31](https://github.com/Victor-Lis/Resistor-Calculator-App/blob/master/apks/Resistor%20Calculator%20v1.31.apk) - Atualização dos ícones
+- [v1.27](https://github.com/Victor-Lis/Resistor-Calculator-App/blob/master/apks/Resistor%20Calculator%20v1.41.apk) - Versão inicial
+
+## 👨‍💻 Autor
+
+[@Victor-Lis](https://github.com/Victor-Lis)
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+
+Código semelhante encontrado com 1 tipo de licença
